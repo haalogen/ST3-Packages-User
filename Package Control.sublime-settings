@@ -1,0 +1,60 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"Autoprefixer",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Colorsublime",
+		"CSS Extended Completions",
+		"DocBlockr",
+		"EasyMotion",
+		"EditorConfig",
+		"EditorConfigSnippets",
+		"Emmet",
+		"Emoji",
+		"Goto-CSS-Declaration",
+		"HTML-CSS-JS Prettify",
+		"Http Requester",
+		"JavaScript Completions",
+		"JavaScript Ultimate",
+		"JavaScriptNext - ES6 Syntax",
+		"JSLint",
+		"JsPrettier",
+		"LESS",
+		"Less2Css",
+		"LiveReload",
+		"Markdown Preview",
+		"MySQL Snippets",
+		"Nunjucks Syntax",
+		"Package Control",
+		"PlainTasks",
+		"Print to HTML",
+		"Python Improved",
+		"Python PEP8 Autoformat",
+		"React and React Router Snippets",
+		"Scilab",
+		"Stylus",
+		"sublime-nunjucks",
+		"SublimeAStyleFormatter",
+		"Terminal",
+		"Text Pastry",
+		"Theme - Cobalt2",
+		"Theme - Monokai Pro",
+		"Theme - Spacegray",
+		"TrailingSpaces",
+		"TypeScript Syntax",
+		"UnicodeCompletion"
+	],
+	"repositories":
+	[
+		"https://raw.github.com/Grafikart/ST3-LiveReload/master/package.json",
+		"https://github.com/DJviolin/sublime-nunjucks"
+	]
+}

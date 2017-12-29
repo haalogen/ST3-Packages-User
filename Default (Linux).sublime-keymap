@@ -1,0 +1,95 @@
+[
+  { "keys": ["ctrl+space"], "command": "auto_complete" },
+  { "keys": ["alt+shift+i"], "command": "reindent" },
+  {
+    "keys": ["tab"],
+    "command": "expand_abbreviation_by_tab",
+
+    // put comma-separated syntax selectors for which
+    // you want to expandEmmet abbreviations into "operand" key
+    // instead of SCOPE_SELECTOR.
+    // Examples: source.js, text.html - source
+    "context": [
+      {
+        "operand": "meta.group.braces.round.js, text.html",
+        "operator": "equal",
+        "match_all": true,
+        "key": "selector"
+      },
+
+      // run only if there's no selected text
+      {
+        "match_all": true,
+        "key": "selection_empty"
+      },
+
+      // don't work if there are active tabstops
+      {
+        "operator": "equal",
+        "operand": false,
+        "match_all": true,
+        "key": "has_next_field"
+      },
+
+      // don't work if completion popup is visible and you
+      // want to insert completion with Tab. If you want to
+      // expand Emmet with Tab even if popup is visible --
+      // remove this section
+      {
+        "operand": false,
+        "operator": "equal",
+        "match_all": true,
+        "key": "auto_complete_visible"
+      },
+      {
+        "match_all": true,
+        "key": "is_abbreviation"
+      }
+    ]
+  },
+  { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+
+  // Sidebar
+  { "keys": ["ctrl+alt+b"], "command": "toggle_side_bar" },
+  { "keys": ["alt+0"], "command": "focus_side_bar" },
+
+  // JS Lint
+  {"keys": ["ctrl+shift+j"], "command": "jslint"},
+
+  // Swap case
+  { "keys": ["ctrl+shift+x"], "command": "swap_case" },
+
+  // Emmet Balance
+  {
+    "keys": [
+      "ctrl+."
+    ],
+    "args": {
+      "action": "balance_inward"
+    },
+    "command": "run_emmet_action",
+    "context": [
+      {
+        "key": "emmet_action_enabled.balance_inward"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "ctrl+,"
+    ],
+    "args": {
+      "action": "balance_outward"
+    },
+    "command": "run_emmet_action",
+    "context": [
+      {
+        "key": "emmet_action_enabled.balance_outward"
+      }
+    ]
+  },
+
+  // JSPrettier: Format Code
+  { "keys": ["super+alt+f"], "command": "js_prettier" },
+
+]

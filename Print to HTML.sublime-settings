@@ -1,0 +1,4 @@
+{
+  // If true, output line numbers to the left of the code
+  "line_numbering": false,
+}

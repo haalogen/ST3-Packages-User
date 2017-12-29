@@ -1,0 +1,7 @@
+{
+	"trailing_spaces_modified_lines_only": false,
+	// By default, nothing happens on save.
+  // Set to true to trim trailing spaces before saving, with respect to the
+  // other settings.
+  "trailing_spaces_trim_on_save": true,
+}

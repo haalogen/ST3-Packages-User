@@ -1,0 +1,96 @@
+{
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_cycle": true,
+	"auto_complete_with_fields": false,
+	"binary_file_patterns":
+	[
+		"*.gzip",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "Inconsolata",
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"margin": 2,
+	"rulers":
+	[
+		70,
+		80
+	],
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_large": true,
+	"spacegray_sidebar_tree_normal": true,
+	"spacegray_tabs_large": true,
+	"tab_completion": false,
+	"tab_size": 2,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": false,
+	"wide_caret": true,
+	"word_wrap": true
+}

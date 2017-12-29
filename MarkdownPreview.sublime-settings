@@ -1,0 +1,19 @@
+/*
+    Markdown Preview default settings
+*/
+{
+    /*
+        Enable or not mathjax support.
+    */
+    "enable_mathjax": true,
+
+    /*
+        Enable highlighting. This enables codehilite extension if not already enabled.
+    */
+    "enable_highlight": true,
+
+    /*
+        Enable or not whether parsed files will be auto-reloaded on save
+    */
+    "enable_autoreload": true,
+}
