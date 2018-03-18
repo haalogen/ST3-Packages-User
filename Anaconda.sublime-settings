@@ -1,6 +1,0 @@
-{
-	"pep8_ignore":
-    [
-        "E303", // E303 - Remove extra blank lines.
-    ],
-}
